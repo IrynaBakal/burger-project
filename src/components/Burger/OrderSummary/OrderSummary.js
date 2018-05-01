@@ -19,6 +19,7 @@ const orderSummary = (props) => {
 			<ul>
 				{ingredientSummary}
 			</ul>
+			<p><strong>Total sum: {props.totalSum.toFixed(2)}</strong></p>
 			<p>Continue to Checkout?</p>
 			<Button 
 				btnType='Danger'
